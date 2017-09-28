@@ -20,18 +20,18 @@ body{
 		- Mettre un peu d'espace entre le bord du bandeau et le texte (on dit des marges internes ou padding en anglais), de 36px (deux fois la taille de la police)
 */
 header, footer{
-	font-family: ;
-	background-color: ;
-	color: ;
-	margin-bottom: ;
-	padding: ;
+	font-family: Cambria, Georgia, Geneva, serif;
+	background-color: rgb(144, 197, 37) ;
+	color: #fff;
+	margin-bottom: 2em;
+	padding: 2em;
 }
 /*
 1. b) Styles spécifiques pour le titre principal (h1)
 		- Mettre la taille de la police à 68px ;	
 */
 h1{
-	
+	font-size: 68px;
 }
 /*
 1. c) Quelques modifications pour le footer :
@@ -41,21 +41,25 @@ h1{
 		- les espaces entre le bord du bandeau et le texte (les marges internes ou padding) doivent être de 2 fois la taille de la police en haut, à droite et à gauche, et de 1 fois la taille de la police en bas
 */
 footer{
-	
+	font-size: 14px;
+	font-style: italic;
+	text-align: right;
+	padding:2em 2em 1em;
 }
 /* 
 2. AERONS UN PEU LE TEXTE : 
 	Espacez les paragraphes entre eux de 9px (la moitié de la taille de la police)
 */
 p{
-	
+	margin:0.5em;
 }
 /*
 3. QUELQUES MICRO-STYLES DANS LE TEXTE
 	Mettez le mot BugDroid en gras non italique
 */
 dfn{
-	
+	font-weight: bold;
+	font-style: normal;
 }
 /* 
 4. STYLONS ET ANIMONS L'IMAGE !
@@ -67,7 +71,9 @@ dfn{
 		- cacher ce qui déborde de ce cadre
 */
 figure{
-    
+    width: 400px;
+    margin: 2em auto;
+    overflow: hidden;
 }
 /*
 4. b) On style la légende de l'image :
@@ -75,7 +81,8 @@ figure{
 		- mettre le texte en italique
 */
 figcaption{
-	
+	margin: 0.5em;
+	font-style: italic;
 }
 /*
 4. c) On prépare l'animation (on appelle notre animation "skate" et on définit ses images-clés) :
@@ -83,8 +90,20 @@ figcaption{
 		- à 1/4 du temps de l'animation, le sprite doit être décalé de 5 largeurs d'image vers la gauche (pour afficher la dernière image)
 		- à la fin, le sprite affiche toujours la dernière image (l'animation reste donc sur cette dernière image pendant les 3/4 du temps)
 */
-@keyframes  {
-    from{  }
+@keyframes skate {
+    from{left:    0;}
+    25% {left:-500%;}
+    to  {left:-500%;}
+}
+@-moz-keyframes skate {
+    from{left:    0;}
+    25% {left:-500%;}
+    to  {left:-500%;}
+}
+@-webkit-keyframes skate {
+    from{left:    0;}
+    25% {left:-500%;}
+    to  {left:-500%;}
 }
 /*
 4. d) On anime le srpite
@@ -92,7 +111,11 @@ figcaption{
 		- appeler l'animation, lui dire de se faire sur 2 secondes, de tourner en boucle et de se faire en 5 étapes
 */
 img{
-
+	position: relative;
+	//width: 600%;
+	animation: skate 2s infinite steps(5);
+	//-moz-animation: skate 2s infinite steps(5);
+	//-webkit-animation: skate 2s infinite steps(5);
 }/*
 5. STYLONS ET ANIMONS LE BOUTON
 */
@@ -109,16 +132,16 @@ img{
 		- mettre un peu d'espace (une marge) sous le bouton (2 fois la taille du texte)
 */
 a{
-	display:;
-	font-size: ;
-	font-weight: ;
-	text-transform: ;
-	background-color: ;
-	color: ;
-	text-decoration: ;
-	padding: ;
-	margin-bottom: ;
-
+	display:inline-block;
+	font-size: 34px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: rgb(237, 0, 129);
+	color: #fff;
+	text-decoration: none;
+	padding:0.6em;
+	margin-bottom:2em;
+	transition: .5s cubic-bezier(0, 1, 1, 2);
 }
 /*
 5. b) Ajoutons la flèche :
@@ -126,14 +149,14 @@ a{
 		- insérer dans cet élément virtuel que vous venez de créer le contenu ► grâce à la propriété content
 */
 a:after{
-	
+	content: "►";
 }
 /*
 5. c) Animons le bouton :
 		- au survol du bouton, sa taille doit grandir de 1.3 fois sa taille de départ
 */
 a:hover{
-	
+	transform:scale(1.3);
 }
 /*
 5. d) Peaufinons un peu l'animation :
