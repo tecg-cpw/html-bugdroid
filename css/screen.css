@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	background-color: #f0f0f0;
+	color: rgb(51, 51, 51);
+	text-align:center;
+}
+/*
+1. STYLONS LE HEADER ET LE FOOTER
+*/
+/* 1. a) Styles généraux des deux grands blocs :
+		- Mettre la police de caractères en Cambria de préférence, sinon Georgia ou Geneva, et en tout cas, de la famille serif ;
+		- Mettre la couleur de fond du bandeau en vert rgb(144, 197, 37) ;
+		- Mettre la couleur du texte en blanc (#fff) ;
+		- Mettre un petit espace (on dit une marge externe) sous le bandeau de 36px (deux fois la taille de la police) ;
+		- Mettre un peu d'espace entre le bord du bandeau et le texte (on dit des marges internes ou padding en anglais), de 36px (deux fois la taille de la police)
+*/
+header, footer{
+	font-family: ;
+	background-color: ;
+	color: ;
+	margin-bottom: ;
+	padding: ;
+}
+/*
+1. b) Styles spécifiques pour le titre principal (h1)
+		- Mettre la taille de la police à 68px ;	
+*/
+h1{
+	
+}
+/*
+1. c) Quelques modifications pour le footer :
+		- la taille de la police doit être de 14px ;
+		- le texte doit s'afficher en italique ;
+		- le texte doit être aligné à droite ;
+		- les espaces entre le bord du bandeau et le texte (les marges internes ou padding) doivent être de 2 fois la taille de la police en haut, à droite et à gauche, et de 1 fois la taille de la police en bas
+*/
+footer{
+	
+}
+/* 
+2. AERONS UN PEU LE TEXTE : 
+	Espacez les paragraphes entre eux de 9px (la moitié de la taille de la police)
+*/
+p{
+	
+}
+/*
+3. QUELQUES MICRO-STYLES DANS LE TEXTE
+	Mettez le mot BugDroid en gras non italique
+*/
+dfn{
+	
+}
+/* 
+4. STYLONS ET ANIMONS L'IMAGE !
+*/
+/* 
+4. a) On prépare le cadre :
+		- donner à la figure une taille de 400px (la taille d'une des images du sprite)
+		- centrer la figure
+		- cacher ce qui déborde de ce cadre
+*/
+figure{
+    
+}
+/*
+4. b) On style la légende de l'image :
+		- lui donner un peu de marge (la moité de la taille de la police)
+		- mettre le texte en italique
+*/
+figcaption{
+	
+}
+/*
+4. c) On prépare l'animation (on appelle notre animation "skate" et on définit ses images-clés) :
+		- au départ, le sprite affiche la première image 
+		- à 1/4 du temps de l'animation, le sprite doit être décalé de 5 largeurs d'image vers la gauche (pour afficher la dernière image)
+		- à la fin, le sprite affiche toujours la dernière image (l'animation reste donc sur cette dernière image pendant les 3/4 du temps)
+*/
+@keyframes  {
+    from{  }
+}
+/*
+4. d) On anime le srpite
+		- le rendre capable de se décaler
+		- appeler l'animation, lui dire de se faire sur 2 secondes, de tourner en boucle et de se faire en 5 étapes
+*/
+img{
+
+}/*
+5. STYLONS ET ANIMONS LE BOUTON
+*/
+/*
+5.	a) Stylons le bouton :
+		- lui donner le comportement d'une boîte de type "inline-block"
+		- mettre la taille de la police en 34px
+		- mettre le texte en gras
+		- écrire le texte en capitales
+		- mettre la couleur de fond du bouton en rose rgb(237, 0, 129)
+		- mettre le texte en blanc
+		- enlever le souligné
+		- mettre un peu d'espace autour du texte (entre le bord de la boîte et le texte) de 0.6 fois la taille du texte
+		- mettre un peu d'espace (une marge) sous le bouton (2 fois la taille du texte)
+*/
+a{
+	display:;
+	font-size: ;
+	font-weight: ;
+	text-transform: ;
+	background-color: ;
+	color: ;
+	text-decoration: ;
+	padding: ;
+	margin-bottom: ;
+
+}
+/*
+5. b) Ajoutons la flèche :
+		- ajouter un élément par CSS dans la balise a, juste après le contenu qui s’y trouve déjà, grâce au pseudo-élément :after ;
+		- insérer dans cet élément virtuel que vous venez de créer le contenu ► grâce à la propriété content
+*/
+a:after{
+	
+}
+/*
+5. c) Animons le bouton :
+		- au survol du bouton, sa taille doit grandir de 1.3 fois sa taille de départ
+*/
+a:hover{
+	
+}
+/*
+5. d) Peaufinons un peu l'animation :
+		- définir une transition entre la taille de départ et la taille d'arrivée : la transition doit se faire sur 1/2 seconde et suivre la courbe de Bézier cubic-bezier(0, 1, 1, 2)
+*/
