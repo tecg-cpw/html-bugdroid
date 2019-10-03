@@ -12,7 +12,7 @@ Cette petite démonstration ne nous dévoile qu'une infime partie de son immense
 BugDroid sur son Sk8board (skateboard)
 	    	
 Je découvre
-"http://www.bugdroid.fr" 
+"https://www.frandroid.com/tag/bugdroid" 
 "vers le site officiel de BugDroid"
 
-Petite démo réalisée dans le cadre des TPs de Création de pages Web en septembre 2017. 
+Petite démo réalisée dans le cadre des TPs de Création de pages Web en septembre 2019. 
