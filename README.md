@@ -65,7 +65,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 #### 3. 1. Liste des balises
 
-Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `script`, `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`BugDroid, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`.
+Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `script`, `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`, `date`(avec l'attribut `datetime`).
 
 #### 3. 2. Rappel concernant les commentaires en HTML
 
@@ -77,7 +77,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
                                  est réalisé en UTF-8 --> 
 ```
 
-- les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de fin de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commentaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 : 
+- ~~les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de fin de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commentaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 :~~ (obsolète, plus nécessaire)
 
 ```html
 <!--[if lt IE 8]>
