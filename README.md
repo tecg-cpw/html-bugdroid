@@ -38,7 +38,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 	    * renseigner que vous êtes l’auteur du document&nbsp;;
 	    * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, les mots-clés suivants soient associés&nbsp;: BugDroid, mascotte Android, robot vert&nbsp;;
 	    * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, le moteur de recherche affiche la description suivante pour votre page dans la page qui présente les résultats de recherche&nbsp;: «&nbsp;Faites la connaissance de Bugdroid, le petit robot vert qui sert de mascotte à Android&nbsp;»&nbsp;;
-	    * prévoir que, si votre page est affichée dans un ancien navigateur IE qui ne reconnaît pas les nouvelles balises HTML5 (comme `nav`, `section`, etc.), ces dernières puissent malgré tout être correctement affichées par le navigateur en question (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous) &nbsp;;
+	    * ~~prévoir que, si votre page est affichée dans un ancien navigateur IE qui ne reconnaît pas les nouvelles balises HTML5 (comme `nav`, `section`, etc.), ces dernières puissent malgré tout être correctement affichées par le navigateur en question (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous)~~(obsolète, plus nécessaire)&nbsp;;
 	    * faire en sorte que le titre du document qui s’affiche dans l’onglet du navigateur soit «&nbsp;BugDroid&nbsp;»&nbsp;;
 	    * lier la feuille de style à votre page HTML&nbsp;;
 	- au niveau du coprs du document, de découper la page en trois grandes sections :
@@ -55,7 +55,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 ### 2. Validation du code HTML
 
 1. lancer un validateur&nbsp;:
-    - soit **Total Validator** (le mieux) s’il est installée sur votre machine&nbsp;;
+    - soit **Total Validator** (le mieux) s’il est installé sur votre machine&nbsp;;
     - soit le [validateur HTML5 du W3C en ligne](https://validator.w3.org/#validate_by_upload) sinon&nbsp;;
 2. interpréter les erreurs éventuelles fournies par le validateur&nbsp;;
 3. corriger&nbsp;;
@@ -65,7 +65,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 #### 3. 1. Liste des balises
 
-Étant donné que ceci est votre premirer exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `script`, `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`BugDroid, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`.
+Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `script`, `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`, `date` (avec l'attribut `datetime`).
 
 #### 3. 2. Rappel concernant les commentaires en HTML
 
@@ -77,7 +77,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
                                  est réalisé en UTF-8 --> 
 ```
 
-- les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de début de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commenaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 : 
+- ~~les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de fin de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commentaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 :~~ (obsolète, plus nécessaire)
 
 ```html
 <!--[if lt IE 8]>
@@ -113,7 +113,7 @@ Il vous suffit de changer la langue du document (de `en` en `fr`), de remplacer 
 > Ces ressources sont à consulter impérativement, elles font partie de la matière de cours
 
 - [À quoi servent les balises META ?](https://www.alsacreations.com/article/lire/628-balises-meta.html) Aidez-vous de cette ressource pour correctement baliser les méta-informations à indiquer dans l’en-tête de votre document&nbsp;; 
-- [The HTML5 Shiv](https://github.com/afarkas/html5shiv). Aidez-vous de cette ressource pour télécharger les fichiers nécessaires et installer HTML5 Shiv, qui permet aux anciens navigateurs d’utiliser les nouvelles balises HTML5. N.B. Utilisez la procédure d’installation manuelle.
+- ~~[The HTML5 Shiv](https://github.com/afarkas/html5shiv). Aidez-vous de cette ressource pour télécharger les fichiers nécessaires et installer HTML5 Shiv, qui permet aux anciens navigateurs d’utiliser les nouvelles balises HTML5. N.B. Utilisez la procédure d’installation manuelle~~(obsolète, plus nécessaire).
 
 * * *
 
