@@ -16,7 +16,7 @@
 
 ## BugDroid
 
-Vous trouverez dans ce dossier un fichier texte HTML nommée **index.html**. Cette page présente le robot Bugdroid.  
+Vous trouverez dans ce dossier un fichier texte nommé **index.txt**. Cette page présente le robot Bugdroid.  
 
 Votre mission est
 
