@@ -37,10 +37,10 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 	    * déclarer correctement l’encodage des caractères utilisé (pour ne pas avoir de problème d’affichage des caractères spéciaux et accentués dans le navigateur)&nbsp;;
 	    * renseigner que vous êtes l’auteur du document&nbsp;;
 	    * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, les mots-clés suivants soient associés&nbsp;: BugDroid, mascotte Android, robot vert&nbsp;;
-	    * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, le moteur de recherche affiche la description suivante pour votre page dans la page qui présente les résultats de recherche&nbsp;: «&nbsp;Faites la connaissance de Bugdroid, le petit robot vert qui sert de mascotte à Android&nbsp;»&nbsp;;
-	    * ~~prévoir que, si votre page est affichée dans un ancien navigateur IE qui ne reconnaît pas les nouvelles balises HTML5 (comme `nav`, `section`, etc.), ces dernières puissent malgré tout être correctement affichées par le navigateur en question (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous)~~(obsolète, plus nécessaire)&nbsp;;
+	    * prévoir que, si on recherche votre page sur un moteur de recherche comme Google, le moteur de recherche affiche la description suivante pour votre page dans la page qui présente les résultats de recherche&nbsp;: «&nbsp;Faites la connaissance de Bugdroid, le petit robot vert qui sert de mascotte à Android&nbsp;»&nbsp;
 	    * faire en sorte que le titre du document qui s’affiche dans l’onglet du navigateur soit «&nbsp;BugDroid&nbsp;»&nbsp;;
 	    * lier la feuille de style à votre page HTML&nbsp;;
+	    * ~~prévoir que, si votre page est affichée dans un ancien navigateur IE qui ne reconnaît pas les nouvelles balises HTML5 (comme `nav`, `section`, etc.), ces dernières puissent malgré tout être correctement affichées par le navigateur en question (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous)~~(obsolète, plus nécessaire)&nbsp;;
 	- au niveau du coprs du document, de découper la page en trois grandes sections :
 	 	 * la bannière (balise `header`)&nbsp;;
 	 	 * le contenu principal (balise `main`)&nbsp;;
