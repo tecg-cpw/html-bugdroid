@@ -55,8 +55,8 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 ### 2. Validation du code HTML
 
 1. lancer un validateur&nbsp;:
-    - soit **Total Validator** (le mieux) s’il est installé sur votre machine&nbsp;;
-    - soit le [validateur HTML5 du W3C en ligne](https://validator.w3.org/#validate_by_upload) sinon&nbsp;;
+    - soit **HTML Validator** (extension de Firefox) *offline*&nbsp;;
+    - soit le [validateur HTML5 du W3C en ligne](https://validator.w3.org/#validate_by_upload) *online*&nbsp;;
 2. interpréter les erreurs éventuelles fournies par le validateur&nbsp;;
 3. corriger&nbsp;;
 4. valider à nouveau jusqu'à ce qu’il n’y ait plus d'erreur.  
