@@ -16,7 +16,7 @@
 
 ## BugDroid
 
-Vous trouverez dans ce dossier un fichier texte HTML nommée **index.html**. Cette page présente le robot Bugdroid.  
+Vous trouverez dans ce dossier un fichier texte nommé **index.txt**. Cette page présente le robot Bugdroid.  
 
 Votre mission est
 
@@ -56,7 +56,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 1. lancer un validateur&nbsp;:
     - soit **HTML Validator** (extension de Firefox) *offline*&nbsp;;
-    - soit le [validateur HTML5 du W3C en ligne](https://validator.w3.org/#validate_by_upload) *online*&nbsp;;
+    - soit le [validateur HTML5 du W3C](https://validator.w3.org/#validate_by_upload) *online*&nbsp;;
 2. interpréter les erreurs éventuelles fournies par le validateur&nbsp;;
 3. corriger&nbsp;;
 4. valider à nouveau jusqu'à ce qu’il n’y ait plus d'erreur.  
@@ -65,7 +65,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 #### 3. 1. Liste des balises
 
-Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `script`, `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`, `time` (avec l'attribut `datetime`).
+Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `i` (avec l'attribut `lang`), `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`, `time` (avec l'attribut `datetime`).
 
 #### 3. 2. Rappel concernant les commentaires en HTML
 
@@ -87,9 +87,9 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 #### 3. 3. Astuce pour démarrer beaucoup plus vite
 
-Si vous utilisez ST3 et que l’extension Emmet est installée, il existe un raccourci clavier qui vous permet d’obtenir beaucoup plus rapidement un *template* de base qu’il vous suffira de compléter / modifier en fonction de vos besoins.
+Si vous utilisez Sublime Text et que l’extension *Emmet* est installée, il existe un raccourci clavier qui vous permet d’obtenir beaucoup plus rapidement un *template* de base qu’il vous suffira de compléter / modifier en fonction de vos besoins.
 
-Presser simplement les touches `!` et `TAB` de votre clavier. Cela vous donnera déjà le résultat suivant : 
+Presser simplement les touches `!` et `TAB` de votre clavier. Cela vous donnera déjà le résultat suivant&nbsp;: 
 
 ```html
 <!DOCTYPE html>
@@ -112,8 +112,12 @@ Il vous suffit de changer la langue du document (de `en` en `fr`), de remplacer 
 
 > Ces ressources sont à consulter impérativement, elles font partie de la matière de cours
 
+- [Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element) : Une documentation qui reprend la liste des balises et leur sens, facile, en français issue du *MDN Web Docs* de Mozilla, une excellente référence&nbsp;;
+- [HTML Living Standard](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element) : **LA** spécification officielle du w3c/whatwg pour le langage HTML, c’est elle qui détient la vérité et qui fait loi en cas de doute. Il s’agit d’une documentation plus technique, en anglais, très complète, qui comporte une page par balise où on trouve toutes les informations nécessaires (sens, règles de grammaire, attributs, …). Votre «&nbsp;*Précis et Concis*&nbsp;» est une version imprimée de ce site&nbsp;; 
+- [Comment indiquer la langue d’un contenu en HTML&nbsp;?](https://www.alsacreations.com/astuce/lire/1151-langue-du-contenu.html) : Aidez-vous de cette ressource pour savoir où et comment utiliser l’attribut lang dans les différents cas de figure&nbsp;;
+- [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp) : Aidez-vous de cette ressource pour trouver quel est le code de langue à utiliser pour remplir correctement la valeur de l'attribut lang&nbsp;;
+- [Un &lt;time&gt; pour chaque chose...](https://www.alsacreations.com/article/lire/1386-html5-element-time.html) : Aidez-vous de cette ressource pour trouver quel est le format de date à utiliser pour remplir correctement la valeur de l'attribut datetime dans la balise time&nbsp;;
 - [À quoi servent les balises META ?](https://www.alsacreations.com/article/lire/628-balises-meta.html) : Aidez-vous de cette ressource pour correctement baliser les méta-informations à indiquer dans l’en-tête de votre document&nbsp;; 
-- [Un <time> pour chaque chose...](https://www.alsacreations.com/article/lire/1386-html5-element-time.html) : Aidez-vous de cette ressource pour trouver quel est le format de date à utiliser pour remplir correctement la valeur de l'attribut datetime dans la balise time&nbsp;;
 - ~~[The HTML5 Shiv](https://github.com/afarkas/html5shiv). Aidez-vous de cette ressource pour télécharger les fichiers nécessaires et installer HTML5 Shiv, qui permet aux anciens navigateurs d’utiliser les nouvelles balises HTML5. N.B. Utilisez la procédure d’installation manuelle~~(obsolète, plus nécessaire).
 
 * * *
