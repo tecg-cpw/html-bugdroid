@@ -44,9 +44,9 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 	- au niveau du coprs du document, de découper la page en trois grandes sections :
 	 	 * la bannière (balise `header`)&nbsp;;
 	 	 * le contenu principal (balise `main`)&nbsp;;
-	 	 * le pied ed page (balise `footer`)&nbsp;;
+	 	 * le pied de page (balise `footer`)&nbsp;;
     
-3. baliser le texte en utilisant les balises HTML correctes&nbsp;;
+3. baliser le texte en utilisant les balises HTML correctes&nbsp; (voir la section **«&nbsp;Aides&nbsp;»** ci-dessous);
 
 4. afficher l’image représentée dans le fichier `bugSkate.png` avec, comme texte alternatif au cas où elle ne s’affiche pas, «&nbsp;BugDroid, un petit robot vert, sautant sur son skate board&nbsp;»&nbsp;;
 
@@ -65,7 +65,7 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 
 #### 3. 1. Liste des balises
 
-Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `i` (avec l'attribut `lang`), `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`, `time` (avec l'attribut `datetime`).
+Étant donné que ceci est votre premier exercice en solo et que vous n’avez pas encore vu en cours théorique toutes les balises requises, voici la liste des balises HTML dont vous aurez besoin pour réaliser cet exercice : `html` (avec l'attribut `lang`), `head`, `meta` (avec les attributs `charset`, `name`, `content`), `title`, `link` (avec les attributs `rel` et `href`), `body`, `header`, `h1`, `i` (avec l'attribut `lang`), `main`, `p`, `dfn` (avec l'attribut `lang`), `abbr` (avec les attributs `lang` et `title`), `figure`, `img` (avec les attributs `src`, `alt`, `width`, `height`), `figcaption`, `b`, `a` (avec les attributs `href`, `title`, `hreflang`), `footer`, `time` (avec l'attribut `datetime`). Consultez la [Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element) (voir la section **«&nbsp;Ressources&nbsp;»** ci-dessous) ainsi que votre «  HTML 5 Pocket Reference » pour vous aider à décider quelle balise et quels attributs utiliser pour quel usage et vérifiez à la fin de l’exercice que vous avez bien utilisé toutes les balises de cette liste.
 
 #### 3. 2. Rappel concernant les commentaires en HTML
 
