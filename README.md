@@ -1,6 +1,6 @@
 # "Bugdroid"
 
-> CSS exercise given at HEPL
+> HTML exercise given at HEPL
 
 * * *
 
