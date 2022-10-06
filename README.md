@@ -118,6 +118,7 @@ Il vous suffit de changer la langue du document (de `en` en `fr`), de remplacer 
 - [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp) : Aidez-vous de cette ressource pour trouver quel est le code de langue à utiliser pour remplir correctement la valeur de l'attribut lang&nbsp;;
 - [Un &lt;time&gt; pour chaque chose...](https://www.alsacreations.com/article/lire/1386-html5-element-time.html) : Aidez-vous de cette ressource pour trouver quel est le format de date à utiliser pour remplir correctement la valeur de l'attribut datetime dans la balise time&nbsp;;
 - [À quoi servent les balises META ?](https://www.alsacreations.com/article/lire/628-balises-meta.html) : Aidez-vous de cette ressource pour correctement baliser les méta-informations à indiquer dans l’en-tête de votre document&nbsp;; 
+- [La métadonnée description selon OpQuast](http://checklists.opquast.com/en/assurance-qualite-web/le-code-source-de-chaque-page-contient-une-metadonnee-qui-en-decrit-le-contenu)
 - ~~[The HTML5 Shiv](https://github.com/afarkas/html5shiv). Aidez-vous de cette ressource pour télécharger les fichiers nécessaires et installer HTML5 Shiv, qui permet aux anciens navigateurs d’utiliser les nouvelles balises HTML5. N.B. Utilisez la procédure d’installation manuelle~~(obsolète, plus nécessaire).
 
 * * *
