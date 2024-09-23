@@ -7,7 +7,7 @@ Le fait qu'il soit un personnage virtuel ne l'empêche pas de faire du sport. Il
 Cette petite démonstration ne nous dévoile qu'une infime partie de son immense talent.
 	   
 "bugSkate.png"
-"BugDroid, un petit robot vert, sautant sur son skate board">
+"BugDroid, un petit robot vert, sautant sur son skate board"
 	    	
 BugDroid sur son Sk8board (skateboard)
 	    	
