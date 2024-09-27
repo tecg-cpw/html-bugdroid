@@ -80,8 +80,9 @@ Pour vous aider, voici les étapes que vous pouvez suivre&nbsp;:
 - ~~les commentaires conditionnels s’indiquent entre les symboles `<!--[if lt IE …]` (marqueur de début de commentaire conditionnel) et `<![endif]-->` (marqueur de fin de commentaire conditionnel). Tout ce qui se trouve entre ces deux marqueurs est ignoré par les navigateurs récents et n’est lu QUE par les navigateurs qui respectent la condition. Par exemple, ce qui se trouve dans le commentaire suivant (entre `<!--[if lt IE 9]>` et `<![endif]-->`) n’est exécuté QUE par les navigateurs IE antérieurs à IE9 :~~ (obsolète, plus nécessaire)
 
 ```html
-<!--[if lt IE 8]>
-    <link rel="stylesheet" href="css/screen-ie678.css">
+<!--[if lt IE 9]>
+    <script src="./dist/html5shiv.js"></script>
+    <script src="./dist/html5shiv-printshiv.js"></script>
 <![endif]-->
 ```
 
